@@ -1,0 +1,13 @@
+.icon svg{
+    fill: var(--blue);
+}
+.accordionButton .primaryText{
+    font-size: 1.1rem;
+}
+.accordionItem .expanded{
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+}
+.accordionButton{
+    justify-content: space-between;
+}

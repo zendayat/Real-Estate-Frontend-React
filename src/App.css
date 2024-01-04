@@ -1,0 +1,6 @@
+.App{
+    position: relative;
+}
+.App>:nth-child(1){
+    background: var(--black);
+}

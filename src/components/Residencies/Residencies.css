@@ -1,0 +1,10 @@
+.r-card:hover{
+    background: linear-gradient(
+        rgba(255,255,255,0)0%,
+        rgba(136,160,255,0.46)217.91%
+    );
+    box-shadow: 0px 72px 49px -51px rgba(136,160,255,0.21);
+}
+.swiper-horizontal{
+    overflow: visible;
+}

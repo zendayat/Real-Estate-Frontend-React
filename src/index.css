@@ -103,9 +103,9 @@ a {
 
 /* GENERAL */
 
-.h-wrapper, .hero-wrapper{
+/* .h-wrapper, .hero-wrapper{
   background: var(--black);
-}
+} */
 
 /* HEADER COMPONENT */
 
@@ -124,7 +124,27 @@ a {
   justify-content: space-between;
   align-items: flex-end;
 }
+.orange-circle{
+  background: var(--orange-gradient);
+}
 
+/* RESIDENCES CONTAINER */
+.r-container{
+  transform: scale(80%);
+
+}
+
+   /* VALUE CONTAINER */
+
+.v-container{
+  transform: scale(80%);
+}
+
+        /* CONTACT CONTAINER */
+.c-container {
+  transform: scale(80%);
+  justify-content: space-between;
+}
 
 /* media queries */
 @media (min-width: 1536px) {

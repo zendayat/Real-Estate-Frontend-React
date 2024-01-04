@@ -7,10 +7,10 @@ function Header() {
         <div className='h-container flexCenter innerWidth paddings  py-4' >
             <img src='./logo.png'/>
             <div className='h-menu gap-10 flexCenter'>
-                <a href="">Residencies</a>
-                <a href="">Our Values</a>
-                <a href="">Contact Us</a>
-                <a href="">Get Started</a>
+                <a href="" className=' font-medium'>Residencies</a>
+                <a href="" className=' font-medium'>Our Values</a>
+                <a href="" className=' font-medium'>Contact Us</a>
+                <a href="" className=' font-medium'>Get Started</a>
                 <button className='button'>
                     <a href="">Contact</a>
                 </button>
