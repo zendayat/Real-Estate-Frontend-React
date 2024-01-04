@@ -77,7 +77,6 @@ a {
 }
 
 .secondaryText {
-  color: rgb(140 139 139);
   font-size: 0.9rem;
 }
 .orangeText {
@@ -94,7 +93,7 @@ a {
   border-radius: 4px;
   transition: all 300ms ease-in;
 }
-.button:hover{
+.button:hover, .c-button:hover{
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -142,6 +141,12 @@ a {
 
         /* CONTACT CONTAINER */
 .c-container {
+  transform: scale(80%);
+  justify-content: space-between;
+}
+
+                /* STARTED CONTAINER */
+.g-container {
   transform: scale(80%);
   justify-content: space-between;
 }
