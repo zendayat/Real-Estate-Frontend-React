@@ -17,13 +17,13 @@ function Value() {
       <div className="paddings innerWidth flexCenter v-container">
         {/* LEFT SIDE */}
         <div className="v-left flex-1">
-          <div className="image-container border-[8px] border-[rgba(232,232,232,0.89)] w-[30rem] h-[35rem] overflow-hidden rounded-t-[15rem] border-8 border-solid border-[rgba(255,255,255,0.12)">
+          <div className="image-container border-[8px] border-[rgba(232,232,232,0.89)] w-[20rem] md:w-[30rem] h-[25rem] md:h-[35rem] overflow-hidden rounded-t-[15rem]  border-solid border-[rgba(255,255,255,0.12)">
             <img src="./value.png" alt="" />
           </div>
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="flexColStart v-right flex-1 gap-[0.5rem]">
+        <div className="flexColStart v-right flex-1 gap-[0.5rem] ">
           <span className="orangeText">Our Values</span>
           <span className="primaryText">Value We Give To You</span>
           <span className="secondaryText">

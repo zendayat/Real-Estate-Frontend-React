@@ -4,7 +4,7 @@ import CountUp from 'react-countup'
 
 function Hero() {
   return (
-    <section className="hero-wrapper text-white relative pb-0 ">
+    <section className="hero-wrapper text-white relative pb-0 z-10">
       <div className="paddings flex flex-col md:flex-row items-end flexCenter hero-container w-full md:w-[90%] md:mx-auto -mt-32 md:mt-0">
 
         {/* lEFT SIDE */}

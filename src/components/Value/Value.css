@@ -11,3 +11,8 @@
 .accordionButton{
     justify-content: space-between;
 }
+@media (max-width: 768px) {
+    .accordionButton .primaryText{
+        font-size: 0.8rem;
+    }
+}

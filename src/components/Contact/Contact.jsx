@@ -7,19 +7,21 @@ import "./Contact.css";
 function Contact() {
   return (
     <section className="c-wrapper">
-      <div className="paddings innerWidth flexCenter c-container">
+      <div className="md:paddings innerWidth flexCenter c-container">
         {/* LEFT SIDE */}
-        <div className="c-left flexColStart flex-1 gap-2">
-          <span className=" orangeText">Our Contacts</span>
-          <span className="primaryText">Just A Click Away</span>
-          <span className=" secondaryText">
-            The Big Oxmox advised her not to do so, because there
-            <br /> were thousands of bad Commas, wild Question Marks
-            <br /> and devious Semikoli, but the Little Blind Text
-            <br /> didn't listen.
-          </span>
+        <div className="c-left flex flex-col justify-center md:items-start items-center md:flex-1 gap-2 mr-auto">
+          <div className="flex flex-col justify-center md:items-start items-center gap-2">
+            <span className=" orangeText">Our Contacts</span>
+            <span className="primaryText">Just A Click Away</span>
+            <span className=" secondaryText">
+              The Big Oxmox advised her not to do so, because there
+              <br /> were thousands of bad Commas, wild Question Marks
+              <br /> and devious Semikoli, but the Little Blind Text
+              <br /> didn't listen.
+            </span>
+          </div>
 
-          <div className="flexStart contactModes mt-8 gap-4">
+          <div className="flex justify-start items-center flex-col md:flex-row contactModes mt-8 gap-4">
             {/* FIRST ROW */}
             <div className="flexColStart row gap-6">
               <div className="flexColCenter mode w-64 p-4 border-[0.8px] border-[rgba(128,128,128,0.143)] rounded-[5px] gap-4 transition-all duration-300 ease-in hover:scale-[1.1] hover:shadow-lg">
@@ -31,9 +33,7 @@ function Contact() {
                     />
                   </div>
                   <div className="flexColStart detail">
-                    <span className=" text-[1.1rem] font-semibold">
-                      Call
-                    </span>
+                    <span className=" text-[1.1rem] font-semibold">Call</span>
                     <span className=" secondaryText">021 123 145 14</span>
                   </div>
                 </div>
@@ -52,9 +52,7 @@ function Contact() {
                     />
                   </div>
                   <div className="flexColStart detail">
-                    <span className=" text-[1.1rem] font-semibold">
-                      Chat
-                    </span>
+                    <span className=" text-[1.1rem] font-semibold">Chat</span>
                     <span className=" secondaryText">021 123 145 14</span>
                   </div>
                 </div>
@@ -111,7 +109,7 @@ function Contact() {
 
         {/* RIGHT SIDE */}
         <div className="c-right flex-1">
-          <div className="image-container w-[30rem] h-[35rem] overflow-hidden rounded-t-[15rem] border-8 border-solid border-[rgba(255,255,255,0.12)]">
+          <div className="image-container w-[20rem] h-[25rem] md:w-[30rem] md:h-[35rem] overflow-hidden rounded-t-[15rem] border-8 border-solid border-[rgba(255,255,255,0.12)] mx-auto">
             <img src="./contact.jpg" alt="" className=" w-full h-full" />
           </div>
         </div>

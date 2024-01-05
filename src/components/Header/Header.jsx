@@ -3,12 +3,14 @@ import { BiMenuAltRight } from "react-icons/bi";
 import OutsideClickHandler from "react-outside-click-handler";
 import "./Header.css";
 function Header() {
-  const [menuOpened, setMenuOpened] = useState(false);
+  const [menuOpened, setMenuOpened] = useState(false)
+  
   const getMenuStyles = (menuOpened) => {
     if (document.documentElement.clientWidth <= 800) {
-      return { right: !menuOpened && "-100%" };
+      return {
+         right: !menuOpened && "-100%" }
     }
-  };
+  }
   return (
     <section className="h-wrapper text-white">
       <div className="h-container flexCenter innerWidth paddings  py-4">
@@ -37,7 +39,7 @@ function Header() {
         </OutsideClickHandler>
         <div
           className="menu-icon md:hidden"
-          onClick={() => setMenuOpened((prev) => !prev)}
+          onClick={() => setMenuOpened((prev)=>!prev)}
         >
           <BiMenuAltRight size={30} />
         </div>

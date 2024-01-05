@@ -8,3 +8,8 @@
 .swiper-horizontal{
     overflow: visible;
 }
+@media (max-width: 768px) {
+    .r-buttons{
+        position: initial;
+    }
+}
