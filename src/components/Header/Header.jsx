@@ -16,6 +16,7 @@ function Header() {
                 </button>
             </div>
         </div>
+        div.menu-icon
     </section>
   );
 };

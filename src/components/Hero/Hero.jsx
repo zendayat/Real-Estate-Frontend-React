@@ -50,7 +50,7 @@ function Hero() {
  
         {/* RIGHT SIDE */}
         <div className="flexCenter hero-right my-auto">
-          <div className="image-container w-[20rem] h-[25rem] overflow-hidden rounded-t-[15rem] border-8 border-solid border-[rgba(255,255,255,0.12)]">
+          <div className="image-container w-[30rem] h-[35rem] -mt-24 overflow-hidden rounded-t-[15rem] border-8 border-solid border-[rgba(255,255,255,0.12)]">
             <img src="./hero-image.png" alt="" className=' h-full w-full'/>
           </div>
         </div>
