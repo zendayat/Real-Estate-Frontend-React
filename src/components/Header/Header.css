@@ -1,0 +1,7 @@
+@media (max-width: 768px){
+    .h-menu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+}
