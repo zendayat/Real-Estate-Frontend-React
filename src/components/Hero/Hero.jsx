@@ -1,6 +1,7 @@
 import React from 'react'
 import {HiLocationMarker} from 'react-icons/hi'
 import CountUp from 'react-countup'
+import {motion} from 'framer-motion'
 
 function Hero() {
   return (
@@ -12,7 +13,11 @@ function Hero() {
 
           <div className="hero-title relative z-10 text-[2.5rem] md:text-6xl leading-[3rem] md:leading-[4rem]">
           <div className="orange-circle h-16 w-16 rounded-full absolute right-[30%] top-[-10%] -z-10"/>
-            <h1 className=' font-black'>Discover<br/> More Suitable<br/> Property</h1>
+            <motion.h1
+            initial={{y: "2rem", opacity: 0}}
+            animate={{y: 0, opacity: 1}}
+            transition={{duration: 2, type: "spring"}}
+            className=' font-black'>Discover<br/> More Suitable<br/> Property</motion.h1>
           </div>
           <div className="hero-des flexColStart text-gray-500 text-[0.9rem]">
             <span>Find a variety of properties that suit you very easily</span>
@@ -50,9 +55,13 @@ function Hero() {
  
         {/* RIGHT SIDE */}
         <div className="flexCenter hero-right my-auto">
-          <div className="image-container w-[95%] h-25rem md:w-[30rem] md:h-[35rem] mt-0 md:-mt-24 overflow-hidden rounded-t-[15rem] border-8 border-solid border-[rgba(255,255,255,0.12)]">
+          <motion.div
+          initial={{x:"7rem", opacity: 0}}
+          animate={{x:0, opacity: 1}}
+          transition={{duration: 2, type: "spring"}}
+          className="image-container w-[95%] h-25rem md:w-[30rem] md:h-[35rem] mt-0 md:-mt-24 overflow-hidden rounded-t-[15rem] border-8 border-solid border-[rgba(255,255,255,0.12)]">
             <img src="./hero-image.png" alt="" className=' h-full w-full'/>
-          </div>
+          </motion.div>
         </div>
 
       </div>

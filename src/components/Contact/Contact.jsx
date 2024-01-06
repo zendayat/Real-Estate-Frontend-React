@@ -24,7 +24,7 @@ function Contact() {
           <div className="flex justify-start items-center flex-col md:flex-row contactModes mt-8 gap-4">
             {/* FIRST ROW */}
             <div className="flexColStart row gap-6">
-              <div className="flexColCenter mode w-64 p-4 border-[0.8px] border-[rgba(128,128,128,0.143)] rounded-[5px] gap-4 transition-all duration-300 ease-in hover:scale-[1.1] hover:shadow-lg">
+              <div className="flexColCenter mode w-[90vw] md:w-64 p-4 border-[0.8px] border-[rgba(128,128,128,0.143)] rounded-[5px] gap-4 transition-all duration-300 ease-in hover:scale-[1.1] hover:shadow-lg">
                 <div className="flexStart w-full gap-[1.6rem]">
                   <div className="flexCenter icon">
                     <MdCall
@@ -43,7 +43,7 @@ function Contact() {
               </div>
 
               {/* second mode */}
-              <div className="flexColCenter mode w-64 p-4 border-[0.8px] border-[rgba(128,128,128,0.143)] rounded-[5px] gap-4 transition-all duration-300 ease-in hover:scale-[1.1] hover:shadow-lg">
+              <div className="flexColCenter mode w-[90vw] md:w-64 p-4 border-[0.8px] border-[rgba(128,128,128,0.143)] rounded-[5px] gap-4 transition-all duration-300 ease-in hover:scale-[1.1] hover:shadow-lg">
                 <div className="flexStart w-full gap-[1.6rem]">
                   <div className="flexCenter icon">
                     <BsFillChatDotsFill
@@ -63,7 +63,7 @@ function Contact() {
             </div>
             {/* SECOND ROW */}
             <div className="flexColStart row gap-6">
-              <div className="flexColCenter mode w-64 p-4 border-[0.8px] border-[rgba(128,128,128,0.143)] rounded-[5px] gap-4 transition-all duration-300 ease-in hover:scale-[1.1] hover:shadow-lg">
+              <div className="flexColCenter mode w-[90vw] md:w-64 p-4 border-[0.8px] border-[rgba(128,128,128,0.143)] rounded-[5px] gap-4 transition-all duration-300 ease-in hover:scale-[1.1] hover:shadow-lg">
                 <div className="flexStart w-full gap-[1.6rem]">
                   <div className="flexCenter icon">
                     <BsFillChatDotsFill
@@ -84,7 +84,7 @@ function Contact() {
               </div>
 
               {/* second mode */}
-              <div className="flexColCenter mode w-64 p-4 border-[0.8px] border-[rgba(128,128,128,0.143)] rounded-[5px] gap-4 transition-all duration-300 ease-in hover:scale-[1.1] hover:shadow-lg">
+              <div className="flexColCenter mode w-[90vw] md:w-64 p-4 border-[0.8px] border-[rgba(128,128,128,0.143)] rounded-[5px] gap-4 transition-all duration-300 ease-in hover:scale-[1.1] hover:shadow-lg">
                 <div className="flexStart w-full gap-[1.6rem]">
                   <div className="flexCenter icon">
                     <HiChatBubbleBottomCenter
