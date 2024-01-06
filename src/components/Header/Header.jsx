@@ -21,7 +21,7 @@ function Header() {
             style={getMenuStyles(menuOpened)}
           >
             <a href="" className=" font-medium">
-              Residenciess
+              Residencies
             </a>
             <a href="" className=" font-medium">
               Our Values
