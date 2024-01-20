@@ -10,7 +10,7 @@ import Hero from "../components/Hero/Hero";
 const Website = () => {
   return (
     <div>
-      <div className=" relative">
+      <div className=" relative bg-black">
         <div className="white-gradient absolute w-80 h-80 bg-[rgba(255,255,255,0.45)] rounded-[100px] blur-[100px]" />
         <Hero />
       </div>

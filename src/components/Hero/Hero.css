@@ -3,3 +3,13 @@
         justify-content: center;
     }
 }
+.hero-container {
+    transform: scale(80%);
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.orange-circle {
+    background: var(--orange-gradient);
+}

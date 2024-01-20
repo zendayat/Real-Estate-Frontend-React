@@ -6,10 +6,10 @@ import { Outlet } from 'react-router-dom'
 const Layout = () => {
   return (
     <>
-      <div>
-        <Header />
-        <Outlet/>
+      <div className=' bg-black'>
+        <Header/>
       </div>
+      <Outlet />
       <Footer />
     </>
   );

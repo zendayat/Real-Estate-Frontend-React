@@ -6,3 +6,12 @@
         z-index: 99;
     }
 }
+.h-container {
+    justify-content: space-between;
+    color: var(--secondary);
+    transform: scale(80%);
+}
+
+.h-menu>*:hover {
+    cursor: pointer;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import {HiLocationMarker} from 'react-icons/hi'
 import CountUp from 'react-countup'
 import {motion} from 'framer-motion'
+import './Hero.css'
 
 function Hero() {
   return (
