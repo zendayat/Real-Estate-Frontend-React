@@ -3,6 +3,7 @@ import {HiLocationMarker} from 'react-icons/hi'
 import CountUp from 'react-countup'
 import {motion} from 'framer-motion'
 import './Hero.css'
+import SearchBar from '../SearchBar/SearchBar'
 
 function Hero() {
   return (
@@ -24,11 +25,7 @@ function Hero() {
             <span>Find a variety of properties that suit you very easily</span>
             <span>Forget all difficulties in finding a residence for you</span>
           </div>
-          <div className="search-bar bg-white rounded-md border-solid border-3 border-[rgba(120,120,120,0.374)] py-2 px-4 justify-between  w-[90%] md:w-full gap-2 mx-auto flex flex-row">
-            <HiLocationMarker color="var(--blue)" size={25} className=' my-auto'/>
-            <input type="text" className=' border-none outline-none text-black font-bold w-full'/>
-            <button className="button">Search</button>
-          </div>
+          <SearchBar/>
           <div className="flexCenter stats w-full gap-[1.5rem] md:gap-4">
             <div className="flexColCenter stat">
               <span className=' text-[2rem]'>

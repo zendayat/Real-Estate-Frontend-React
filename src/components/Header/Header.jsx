@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import OutsideClickHandler from "react-outside-click-handler";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 function Header() {
   const [menuOpened, setMenuOpened] = useState(false)
   
@@ -23,20 +23,11 @@ function Header() {
             className="h-menu top-24 right-0 bg-white md:bg-transparent rounded-xl text-black md:text-white gap-8 p-12 md:p-0 font-medium md:font-normal md:gap-10 flexCenter transition-all duration-300 ease-in z-[99]"
             style={getMenuStyles(menuOpened)}
           >
-            <a href="" className=" font-medium">
-              Residencies
-            </a>
-            <a href="" className=" font-medium">
-              Our Values
-            </a>
-            <a href="" className=" font-medium">
-              Contact Us
-            </a>
-            <a href="" className=" font-medium">
-              Get Started
-            </a>
-            <button className="button">
-              <a href="">Contact</a>
+            <NavLink to="/properties" className=" font-medium">Properties</NavLink>
+            
+            <a href="">Contact</a>
+            <button className=" button">
+              Login
             </button>
           </div>
         </OutsideClickHandler>
