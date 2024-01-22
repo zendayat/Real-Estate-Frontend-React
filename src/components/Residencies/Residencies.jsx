@@ -4,6 +4,7 @@ import 'swiper/css'
 import data from '../../utils/slider.json'
 import '../Residencies/Residencies.css'
 import { sliderSettings } from '../../utils/common'
+import PropertyCard from '../PropertyCard/PropertyCard'
 
 function Residencies() {
   return (
@@ -19,14 +20,7 @@ function Residencies() {
                 {
                     data.map((card, i)=> (
                         <SwiperSlide key={i}>
-                            <div className="r-card gap-[0.6rem] flexColStart p-4 rounded-[10px] max-w-max m-auto transition-all duration-300 ease-in hover:scale-[1.025] hover:cursor-pointer hover:">
-                                 <img src={card.image} alt="home" className=' w-full max-w-64'/>
-                                 <span className="secondaryText r-price text-[1.2rem] font-semibold">
-                                    <span className=' text-orange-500'>$</span><span>{card.price}</span>
-                                 </span>
-                                 <span className="primaryText text-[1.5rem]">{card.name}</span>
-                                 <span className="secondaryText text-[0.7rem] w-[15rem]">{card.detail}</span>
-                            </div>
+                            <PropertyCard card = {card}/>
                         </SwiperSlide>
                     ))
                 }
