@@ -33,6 +33,7 @@ const Properties = () => {
     <div className="wrapper w-[80vw] mx-auto">
         <div className="flexColCenter paddings innerWidth properties-container">
           <SearchBar/>
+          {/* ALL RESIDENCIES */}
           <div className="paddings flexCenter properties">
             {
               data.map((card, i)=>(<PropertyCard card={card} key={i}/>))
