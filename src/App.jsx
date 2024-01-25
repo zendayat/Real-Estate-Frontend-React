@@ -7,6 +7,7 @@ import {ReactQueryDevtools} from 'react-query/devtools'
 import Layout from './components/Layout/Layout';
 import Properties from './pages/Properties/Properties';
 import {ToastContainer} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
   const queryClient = new QueryClient()
